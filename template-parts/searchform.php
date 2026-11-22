@@ -49,8 +49,6 @@
             $terms = get_terms('area');
             $selected_areas = (array)($_GET['area'] ?? []);
 
-            // $specific_targets = ['吾妻郡高山村', '甘楽郡甘楽町']; // 抜き出したい名前を指定
-
             // --- 1. リネーム設定（元の名前 => 表示したい名前） ---
             $rename_map = [
                 '吾妻郡高山村' => '吾妻郡',

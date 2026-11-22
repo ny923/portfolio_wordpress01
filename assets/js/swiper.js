@@ -1,7 +1,6 @@
 // for top
 let pickupSwiper = new Swiper('.pickup.swiper', {
     loop: true,
-    // centeredSlides: true,
     speed: 1000,
     autoplay: {
         delay: 10000,
@@ -18,7 +17,7 @@ let pickupSwiper = new Swiper('.pickup.swiper', {
     breakpoints: {
         // pcの場合
         1041: {
-            slidesPerView: 3, //4
+            slidesPerView: 3,
         },
         // padの場合
         761: {
@@ -82,7 +81,7 @@ let recommendPropertySwiper = new Swiper('.property.swiper.recommend', {
     breakpoints: {
         // pcの場合
         1220: {
-            slidesPerView: 3,//5
+            slidesPerView: 3,
         },
         // padの場合
         761: {

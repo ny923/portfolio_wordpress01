@@ -146,8 +146,6 @@
   <!-- /.wrap -->
 <?php endif; ?>
 
-<!-- jquery読込 -->
-<!-- <script src="https://code.jquery.com/jquery-4.0.0.min.js"></script> -->
 <script src="https://yubinbango.github.io/yubinbango/yubinbango.js" charset="UTF-8"></script>
 
 <!-- swiper -->

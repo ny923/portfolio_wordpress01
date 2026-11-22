@@ -228,7 +228,7 @@
                     <?php endif; ?>
                     <!-- 水回りは一旦内装に書く <?php echo get_post_meta(get_the_ID(), 'reform_done_water', true); ?>施工済　 -->
                     <?php
-                    // reform_done_interior の値を取得
+                    // reform_done_exterior の値を取得
                     $done_exterior = get_post_meta(get_the_ID(), 'reform_done_exterior', true);
                     if ($done_exterior) :
                     ?>

@@ -310,10 +310,6 @@ function my_property_query_settings($query)
         $query->set('orderby', 'meta_value');
         $query->set('order', 'DESC');
         break;
-      // case 'date_desc': // 新着順
-      //   $query->set('orderby', 'date');
-      //   $query->set('order', 'DESC');
-      //   break;
       case 'modified_desc': // 更新順
         $query->set('orderby', 'modified');
         $query->set('order', 'DESC');
@@ -375,10 +371,6 @@ if (! current_user_can('delete_users')) {
 
 
 // WP members 新規登録通知を鳥居塚さん達へ
-/**
- * This is a single email example.  To change the
- * notification address just return the filtered result.
- */
 add_filter('wpmem_notify_addr', function ($email) {
   return 'f.toriizuka@e-stitch.jp';
 });

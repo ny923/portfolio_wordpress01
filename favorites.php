@@ -40,8 +40,6 @@
           </ol>
         </div>
 
-        <!-- <h1 class="headline__title"><?php the_title(); ?></h1> -->
-
       </div>
       <div class="content">
         <div class="property">
