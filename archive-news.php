@@ -59,10 +59,8 @@
 
                 <li class="news-item">
                   <a href="<?php the_permalink(); ?>" class="">
-                    <!-- <div class="news-texts"> -->
                     <time class="news__time" datetime="<?php the_time('Y/m/d'); ?>"><?php the_time('Y/m/d'); ?></time>
                     <h3 class="news__title"><?php echo get_the_title(); ?></h3>
-                    <!-- </div> -->
                   </a>
                 </li>
 

@@ -55,15 +55,6 @@
   main:not(.archive) {
     @include mixin.pc {
       position: relative;
-
-      // .section-column {
-      //   margin-left: 20px;
-      // }
-      // .section-content,
-      // .column-contents {
-      //   margin-left: 0;
-      //   margin-inline: initial !important;
-      // }
     }
   }
 }
@@ -212,7 +203,6 @@ main:not(.archive, .news, :is(.members), :has(.register_links)) {
     margin-top: 40px;
   }
   &__thumbnail img {
-    // max-height: 400px;
     object-fit: cover;
   }
 

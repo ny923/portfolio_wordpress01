@@ -447,15 +447,7 @@ Template Name:front-page
                   <div class="column-texts">
 
                     <h3 class="column__title"><?php echo get_the_title(); ?></h3>
-                    <!-- <p class="column__text">
-                      <?php if (mb_strlen($post->post_content) > 30) {
-                        $content = mb_substr(strip_tags(apply_filters('the_content', $post->post_content)), 0, 30);
-                        echo $content . "…";
-                      } else {
-                        echo $post->post_content;
-                      } ?></p> -->
                     <p class="classify"><?php the_category(); ?></p>
-                    <!-- <time class="column__time" datetime="<?php the_time('Y/m/d'); ?>"><?php the_time('Y/m/d'); ?></time> -->
                   </div>
                 </a>
               </li>

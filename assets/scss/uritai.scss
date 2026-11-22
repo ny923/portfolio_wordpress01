@@ -1,5 +1,4 @@
 @charset "UTF-8";
-// @use "mixin" as mixin;
 // このページのみ特殊！要注意
 // 〃 だけ@media細かく分けた方が良いかも…
 // padPro OK, padAir X, pad X,
@@ -195,7 +194,6 @@
         @include mixin.pc {
             margin-inline: auto;
             margin-left: 90px;
-            // margin-left: 0;
         }
         img {
             max-width: 200px;
@@ -815,15 +813,11 @@
         justify-content: center;
         gap: 20px;
         @include mixin.pc {
-            // scale: min(1.8, calc(90vw / 710px));
         }
         @include mixin.pad {
-            // padding-top: 30px;
         }
         @include mixin.sp {
-            // padding-top: 0;
             gap: 0;
-            // scale: 1;
             flex-direction: column;
         }
     }
@@ -837,7 +831,6 @@
         }
         @include mixin.sp {
             font-size: calc(var(--large-font) * 1.2);
-            // letter-spacing: -1px;
             font-weight: bold;
             margin-inline: auto;
         }
